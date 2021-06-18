@@ -1,0 +1,74 @@
+@import "abstract/vendorvariables";
+@import "vendors/bootstrap/bootstrap";
+
+
+@import "abstract/variables";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  background-color: #E56353;
+  color: #FAFAFA;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  .titulo {
+    font-size: 30pt;
+    font-weight: lighter;
+  }
+  .subtitulo {
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+.seccion {
+  font-size: 30pt;
+  font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+  background-color: #E56353;
+  color: #FAFAFA;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+}
+.titulo {
+  font-size: 30pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subtitulo {
+  font-size: 25pt;
+  font-weight: bold;
+}
+.articulo1 {
+  font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+  background-color: #91918D;
+  color: #FAFAFA;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+  img {
+    max-width: 80%;
+  }
+  h4 {
+    font-weight: bold;
+    padding: 15pt;
+  }
+  p {
+    text-align: justify;
+  }
+}
+footer {
+  background-color: #A0A0A0;
+  text-align: center;
+  justify-content: center;
+  color: #FAFAFA;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+}
