@@ -9965,11 +9965,13 @@ header .subtitulo {
   font-size: 30pt;
   font-weight: bold;
   text-transform: uppercase;
+  padding-bottom: 50pt;
 }
 
 .subtitulo {
   font-size: 25pt;
   font-weight: bold;
+  padding: 20pt;
 }
 
 .articulo1 {
@@ -9978,18 +9980,60 @@ header .subtitulo {
   justify-content: center;
   background-color: #91918D;
   color: #FAFAFA;
+  font-weight: normal;
   padding-top: 50pt;
   padding-bottom: 50pt;
 }
 .articulo1 img {
-  max-width: 80%;
+  max-width: 100%;
 }
 .articulo1 h4 {
   font-weight: bold;
   padding: 15pt;
 }
 .articulo1 p {
+  font-size: 12pt;
   text-align: justify;
+}
+
+.articulo2 {
+  font-weight: lighter;
+  text-align: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+  color: #91918D;
+  font-weight: normal;
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+}
+.articulo2 img {
+  max-width: 100%;
+}
+.articulo2 h4 {
+  font-weight: bold;
+  padding: 15pt;
+}
+.articulo2 p {
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.boton {
+  border-radius: 15px;
+  font-weight: bold;
+  color: #91918D;
+  font-size: 20pt;
+  padding: 10pt;
+  width: 150pt;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0);
+  transition: all 2s;
+}
+.boton:hover {
+  background-color: #E56353;
+  color: #FAFAFA;
+  padding: 20pt;
+  width: 200pt;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 footer {
